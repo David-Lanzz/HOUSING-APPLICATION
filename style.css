@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  background: url('./images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg');
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+.names li,
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input {
+  height: 3rem;
+}
+
+main {
+  border: solid 1px;
+  background-color: #fff;
+  opacity: 90%;
+  padding: 1rem;
+}
+
+input,
+textarea,
+#id {
+  border: none;
+  background-color: rgb(253, 95, 32);
+  border-radius: 0.7rem;
+  padding: 2rem;
+  color: #fff;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  width: 17rem;
+}
+
+div input {
+  padding: 0 0 0 3rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#idcard {
+  opacity: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+#id {
+  background-size: cover;
+  width: 15rem;
+}
+
+#camera {
+  left: 30%;
+  margin-bottom: 2rem;
+}
+
+textarea,
+#id {
+  background-size: cover;
+  height: 15rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+  opacity: 70%;
+}
+
+ul {
+  gap: 1rem;
+}
+
+label {
+  color: rgb(219, 157, 0);
+}
+
+i,
+.radio {
+  position: absolute;
+  color: rgb(255, 223, 141);
+  left: 2.5rem;
+  width: 2rem;
+  height: 2rem;
+  outline: none;
+}
+
+input:hover {
+  border: 2px rgb(255, 255, 255) solid;
+}
+
+input:focus {
+  outline: none;
+}
+
+#fee input {
+  padding: 0 0 0 3rem;
+}
+
+#submit {
+  position: absolute;
+  margin-top: 2rem;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+  border: 5px rgb(255, 255, 255) solid;
+  background-color: brown;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 3rem 20%;
+  }
+
+  i,
+  .radio {
+    position: absolute;
+    left: 22%;
+  }
+
+  #camera {
+    left: 27%;
+  }
+}

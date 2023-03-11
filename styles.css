@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  background: url('./images/form.jpg');
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header {
+  text-align: start;
+  font-size: 4rem;
+  color: rgb(253, 95, 32);
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  border: 3px solid #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  background-color: brown;
+  color: #fff;
+  border-radius: 1.3rem;
+  width: 15rem;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 5% 20%;
+  }
+}

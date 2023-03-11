@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOUSING APPLICATION FORM</title>
+</head>
+
+<body>
+    <header>
+        <h1>RENTAL APPLICATION FORM</h1>
+    </header>
+    <main>
+        <form action="" method="post">
+            <ul class="names">
+                <Label for="fullname">FULL NAME</Label>
+                <li id="fullname">
+                    <input type="text" name="first name" class="name" id="fname" placeholder="First Name" required>
+                    <input type="text" name="last name" class="name" id="lname" placeholder="Last Name" required>
+                </li>
+                <label for="email">EMAIL</label>
+                <li id="email">
+                    <i class="fa-regular fa-envelope"></i><input type="email" id="email" placeholder="Input your Email"
+                        required>
+                </li>
+                <label for="number">PHONE NUMBER</label>
+                <li id="number">
+                    <i class="fa-solid fa-phone"></i><input type="number" id="number"
+                        placeholder="Input your phone number" required>
+                </li>
+                <label for="address">ADDRESS</label>
+                <li id="address">
+                    <i class="fa-solid fa-location-dot"></i><input type="text" id="address"
+                        placeholder="Input your address" required>
+                </li>
+                <label for="state">STATE</label>
+                <li id="state">
+                    <i class="fa-solid fa-map"></i><input type="text" id="state" required>
+                </li>
+                <label for="city">CITY</label>
+                <li id="city">
+                    <i class="fa-solid fa-map"></i><input type="text" id="city" required>
+                </li>
+                <label for="zip">ZIP CODE</label>
+                <li id="zip">
+                    <i class="fa-solid fa-map-pin"></i><input type="number" id="zip">
+                </li>
+                <label for="kids">DO YOU HAVE KIDS</label>
+                <li id="kids">
+                    <i class="fa-solid fa-child"></i><input type="text" id="kids" required>
+                </li>
+                <label for="ms">MARITAL STATUS</label>
+                <li id="ms">
+                    <div>
+                        <input type="radio" class="radio" name="marital status" id=""><input readonly required
+                            value="Single">
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" name="marital status" id=""><input readonly required
+                            value="Married">
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" name="marital status" id=""><input readonly required
+                            value="Divorced">
+                    </div>
+                </li>
+                <label for="pets">DO YOU HAVE PETS?</label>
+                <li id="pets">
+                    <i class="fa-solid fa-paw"></i><input type="text" id="pets" required>
+                </li>
+                <label for="living">HOW MANY PEOPLE WILL BE LIVING IN THE HOUSE</label>
+                <li id="living">
+                    <i class="fa-solid fa-person"></i><input type="text" id="living" required>
+                </li>
+                <label for="dob">DATE OF BIRTH</label>
+                <li id="dob">
+                    <i class="fa-regular fa-calendar"></i><input type="text" id="dob" required>
+                </li>
+                <label for="occupation">OCCUPATION</label>
+                <li id="occupation">
+                    <i class="fa-solid fa-briefcase"></i><input type="text" id="occupation" required>
+                </li>
+                <label for="reasons">REASON FOR LEAVING PREVIOUS HOUSE?</label>
+                <li id="reasons">
+                    <i class="fa-solid fa-note-sticky"></i><textarea type="text" id="pets"
+                        placeholder="Type your answer here" required></textarea>
+                </li>
+                <label for="lease">HOW LONG LEASE ARE YOU LOOKING FOR?</label>
+                <li id="lease">
+                    <i class="fa-regular fa-calendar"></i></i><input type="text" id="lease" required>
+                </li>
+                <label for="moving">HOW SOON DO YOU INTEND TO MOVE IN?</label>
+                <li id="moving">
+                    <i class="fa-regular fa-calendar"></i><input type="text" id="moving" required>
+                </li>
+                <label for="mit">MOVE IN WITHIN 7 DAYS OF APPLICATION DATE....... IS A GOOD TIME FOR YOU
+                    ALSO?</label>
+                <li id="mit">
+                    <div>
+                        <input type="radio" class="radio" name="move in time"><input readonly required value="Yes">
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" name="move in time"><input readonly required value="No">
+                    </div>
+                </li>
+                <label for="security">HOW SOON WILL YOU BE MAKING THE SECURITY DEPOSIT?</label>
+                <li id="security">
+                    <i class="fa-solid fa-shield-halved"></i><input type="text" id="security">
+                </li>
+                <label for="keys">HOW SOON DO YOU WANT TO RECEIVE THE KEYS AND THE DOCUMENTS?</label>
+                <li id="keys">
+                    <i class="fa-solid fa-house"></i><input type="text" id="keys">
+                </li>
+                <label for="fee">APPLICATION FORM FEE $60</label>
+                <li id="fee">
+                    <div>
+                        <input type="radio" class="radio" name="application fee"><input readonly required
+                            value="Cash App">
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" name="application fee"><input readonly required value="Zelle">
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" name="application fee"><input readonly required
+                            value="PayPal">
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" name="application fee"><input readonly required
+                            value="Apple Pay">
+                    </div>
+                </li>
+                <label for="secure">HOW MUCH DO YOU HAVE TO SECURE THE PROPERTY NOW?</label>
+                <li id="secure">
+                    <input type="text" id="secure" required>
+                </li>
+                <label for="cars">NUMBER OF CARS</label>
+                <li id="cars">
+                    <i class="fa-solid fa-car"></i><input type="text" id="cars">
+                </li>
+                <label for="id">ID CARD</label>
+                <li id="id">
+                    
+                    <i class="fa-solid fa-camera fa-5x" id="camera"></i>
+                    <input type="file" name="id number" id="idcard" required>
+                </li>
+                <label for="eviction">ANY PREVIOUS EVICTIONS?</label>
+                <li id="eviction">
+                    <div>
+                        <input type="radio" class="radio" name="evicted"><input readonly required value="YES">
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" name="evicted"><input readonly required value="NO">
+                    </div>
+                </li>
+                <label for="credit">TOTAL CREDIT SCORE</label>
+                <li id="credit">
+                    <i class="fa-solid fa-credit-card"></i><input type="text" id="credit">
+                </li>
+
+                <li id="date">
+                    <label for="date">DATE</label>
+                    <input type="date" id="date">
+                </li>
+
+                <li id="time">
+                    <label for="time">TIME</label>
+                    <input type="time" id="time">
+                </li>
+            </ul>
+            <input type="submit" value="Submit form" id="submit">
+        </form>
+    </main>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/10e6eafe5a.js" crossorigin="anonymous"></script>
+</body>
+</html>
