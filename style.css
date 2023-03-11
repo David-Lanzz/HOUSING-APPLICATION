@@ -23,6 +23,7 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   background-attachment: fixed;
+  background-position: center;
 }
 
 li {
@@ -147,6 +148,7 @@ input:focus {
 @media screen and (min-width: 768px) {
   body {
     padding: 3rem 20%;
+    background-position: right;
   }
 
   i,
