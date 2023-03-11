@@ -68,6 +68,7 @@ ul div {
 div input {
   padding: 0 0 0 3rem;
   width: 12rem;
+  cursor: pointer;
 }
 
 h1 {
