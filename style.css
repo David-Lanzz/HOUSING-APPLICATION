@@ -59,7 +59,7 @@ textarea,
   color: #fff;
 }
 
-div {
+ul div {
   display: flex;
   align-items: center;
   width: 17rem;
@@ -143,6 +143,36 @@ input:focus {
   padding: 0.5rem 0.5rem 2rem 0.5rem;
   border: 5px rgb(255, 255, 255) solid;
   background-color: brown;
+}
+
+section {
+  background-color: #ffebc0;
+  padding: 2rem;
+  margin-top: 3rem;
+  color: #000;
+  display: grid;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+
+section p {
+  color: #333;
+  font-size: 0.7rem;
+}
+
+section h3 {
+  text-decoration: underline;
+}
+
+.agreement {
+  width: 100%;
+  font-size: 0.75rem;
+}
+
+#agreement {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 768px) {
