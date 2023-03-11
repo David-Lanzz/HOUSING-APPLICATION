@@ -52,7 +52,7 @@ input,
 textarea,
 #id {
   border: none;
-  background-color: rgb(253, 95, 32);
+  background-color: rgb(204, 114, 62);
   border-radius: 0.7rem;
   padding: 2rem;
   color: #fff;
@@ -81,6 +81,11 @@ h1 {
 #id {
   background-size: cover;
   width: 15rem;
+}
+
+#idcard,
+#id {
+  cursor: pointer;
 }
 
 #camera {
