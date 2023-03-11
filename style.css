@@ -155,6 +155,9 @@ section {
   gap: 2rem;
   border-radius: 1rem;
 }
+.uploadcare--widget__button.uploadcare--widget__button_type_open {
+  background-color: #bcc5d1;
+}
 
 section p {
   color: #333;

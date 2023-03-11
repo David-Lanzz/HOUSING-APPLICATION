@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.lang.en.min.js"></script>
     <title>RENTAL APPLICATION FORM</title>
 </head>
 
@@ -23,151 +24,159 @@
                 </li>
                 <label for="email">EMAIL</label>
                 <li id="email">
-                    <i class="fa-regular fa-envelope"></i><input type="email" id="email" placeholder="Input your Email"
-                        required>
+                    <i class="fa-regular fa-envelope"></i><input type="email" id="email" name="email"
+                        placeholder="Input your Email" required>
                 </li>
                 <label for="number">PHONE NUMBER</label>
                 <li id="number">
-                    <i class="fa-solid fa-phone"></i><input type="number" id="number"
+                    <i class="fa-solid fa-phone"></i><input type="number" name="phone number" id="number"
                         placeholder="Input your phone number" required>
                 </li>
                 <label for="address">ADDRESS</label>
                 <li id="address">
                     <i class="fa-solid fa-location-dot"></i><input type="text" id="address"
-                        placeholder="Input your address" required>
+                        placeholder="Input your address" name="address" required>
                 </li>
                 <label for="state">STATE</label>
                 <li id="state">
-                    <i class="fa-solid fa-map"></i><input type="text" id="state" required>
+                    <i class="fa-solid fa-map"></i><input name="state" type="text" id="state" required>
                 </li>
                 <label for="city">CITY</label>
                 <li id="city">
-                    <i class="fa-solid fa-map"></i><input type="text" id="city" required>
+                    <i class="fa-solid fa-map"></i><input name="city" type="text" id="city" required>
                 </li>
                 <label for="zip">ZIP CODE</label>
                 <li id="zip">
-                    <i class="fa-solid fa-map-pin"></i><input type="number" id="zip">
+                    <i class="fa-solid fa-map-pin"></i><input name="zip code" type="number" id="zip">
                 </li>
                 <label for="kids">DO YOU HAVE KIDS</label>
                 <li id="kids">
-                    <i class="fa-solid fa-child"></i><input type="text" id="kids" required>
+                    <i class="fa-solid fa-child"></i><input name="kids?" type="text" id="kids" required>
                 </li>
                 <label for="ms">MARITAL STATUS</label>
                 <li id="ms">
                     <div>
-                        <input type="radio" class="radio" name="marital status" id=""><input readonly required
-                            value="Single">
+                        <input type="radio" class="radio" value="single" name="marital status" id="" required><input
+                            readonly value="Single">
                     </div>
                     <div>
-                        <input type="radio" class="radio" name="marital status" id=""><input readonly required
-                            value="Married">
+                        <input type="radio" class="radio" name="marital status" id="" value="married" required><input
+                            readonly value="Married">
                     </div>
                     <div>
-                        <input type="radio" class="radio" name="marital status" id=""><input readonly required
-                            value="Divorced">
+                        <input type="radio" class="radio" name="marital status" id="" value="divorced" required><input
+                            readonly value="Divorced">
                     </div>
                 </li>
                 <label for="pets">DO YOU HAVE PETS?</label>
                 <li id="pets">
-                    <i class="fa-solid fa-paw"></i><input type="text" id="pets" required>
+                    <i class="fa-solid fa-paw"></i><input type="text" id="pets" required name="pets?">
                 </li>
                 <label for="living">HOW MANY PEOPLE WILL BE LIVING IN THE HOUSE</label>
                 <li id="living">
-                    <i class="fa-solid fa-person"></i><input type="text" id="living" required>
+                    <i class="fa-solid fa-person"></i><input name="number of residents" type="number" id="living"
+                        required>
                 </li>
                 <label for="dob">DATE OF BIRTH</label>
                 <li id="dob">
-                    <i class="fa-regular fa-calendar"></i><input type="date" id="dob" required>
+                    <i class="fa-regular fa-calendar"></i><input type="date" id="dob" name="date of birth" required>
                 </li>
                 <label for="occupation">OCCUPATION</label>
                 <li id="occupation">
-                    <i class="fa-solid fa-briefcase"></i><input type="text" id="occupation" required>
+                    <i class="fa-solid fa-briefcase"></i><input name="occupation" type="text" id="occupation" required>
                 </li>
                 <label for="reasons">REASON FOR LEAVING PREVIOUS HOUSE?</label>
                 <li id="reasons">
                     <i class="fa-solid fa-note-sticky"></i><textarea type="text" id="pets"
-                        placeholder="Type your answer here" required></textarea>
+                        placeholder="Type your answer here" required name="reason for leaving previous home"></textarea>
                 </li>
                 <label for="lease">HOW LONG LEASE ARE YOU LOOKING FOR?</label>
                 <li id="lease">
-                    <i class="fa-regular fa-calendar"></i></i><input type="text" id="lease" required>
+                    <i class="fa-regular fa-calendar"></i><input type="text" id="lease" required name="lease time">
                 </li>
                 <label for="moving">HOW SOON DO YOU INTEND TO MOVE IN?</label>
                 <li id="moving">
-                    <i class="fa-regular fa-calendar"></i><input type="text" id="moving" required>
+                    <i class="fa-regular fa-calendar"></i><input type="text" id="moving" required name="moving in time">
                 </li>
                 <label for="mit">MOVE IN WITHIN 7 DAYS OF APPLICATION DATE....... IS A GOOD TIME FOR YOU
                     ALSO?</label>
                 <li id="mit">
                     <div>
-                        <input type="radio" class="radio" name="move in time"><input readonly required value="Yes">
+                        <input type="radio" class="radio" name="move in within 7 days?" value="Yes" required><input
+                            readonly value="Yes">
                     </div>
                     <div>
-                        <input type="radio" class="radio" name="move in time"><input readonly required value="No">
+                        <input type="radio" class="radio" name="move in within 7 days?" value="No" required><input
+                            readonly value="No">
                     </div>
                 </li>
                 <label for="security">HOW SOON WILL YOU BE MAKING THE SECURITY DEPOSIT?</label>
                 <li id="security">
-                    <i class="fa-solid fa-shield-halved"></i><input type="text" id="security">
+                    <i class="fa-solid fa-shield-halved"></i><input type="text" id="security"
+                        name="security deposit time">
                 </li>
                 <label for="keys">HOW SOON DO YOU WANT TO RECEIVE THE KEYS AND THE DOCUMENTS?</label>
                 <li id="keys">
-                    <i class="fa-solid fa-house"></i><input type="text" id="keys">
+                    <i class="fa-solid fa-house"></i><input type="text" id="keys" name="receive keys in">
                 </li>
                 <label for="fee">APPLICATION FORM FEE $60</label>
                 <li id="fee">
                     <div>
-                        <input type="radio" class="radio" name="application fee"><input readonly required
-                            value="Cash App">
+                        <input type="radio" class="radio" name="preferred payment app" required value="cash app"><input
+                            readonly value="Cash App">
                     </div>
                     <div>
-                        <input type="radio" class="radio" name="application fee"><input readonly required value="Zelle">
+                        <input type="radio" class="radio" name="preferred payment app" required value="zelle"><input
+                            readonly value="Zelle">
                     </div>
                     <div>
-                        <input type="radio" class="radio" name="application fee"><input readonly required
-                            value="PayPal">
+                        <input type="radio" class="radio" name="preferred payment app" required value="paypal"><input
+                            readonly value="PayPal">
                     </div>
                     <div>
-                        <input type="radio" class="radio" name="application fee"><input readonly required
-                            value="Apple Pay">
+                        <input type="radio" class="radio" name="preferred payment app" required value="apple pay"><input
+                            readonly value="Apple Pay">
                     </div>
                 </li>
                 <label for="secure">HOW MUCH DO YOU HAVE TO SECURE THE PROPERTY NOW?</label>
                 <li id="secure">
-                    <input type="text" id="secure" required>
+                    <input type="text" id="secure" required name="available amount to secure property">
                 </li>
                 <label for="cars">NUMBER OF CARS</label>
                 <li id="cars">
-                    <i class="fa-solid fa-car"></i><input type="number" id="cars">
+                    <i class="fa-solid fa-car"></i><input type="number" id="cars" name="number of cars">
                 </li>
                 <label for="id">ID CARD</label>
                 <li id="id">
-
                     <i class="fa-solid fa-camera fa-5x" id="camera"></i>
-                    <input type="file" name="id number" id="idcard" required>
+                    <input type="file" name="id image" id="idcard" required>
+                </li>
+                <li>
+                    <input type="hidden" role="uploadcare-uploader" data-public-key="972f9677e0f060518698" data-tabs="file camera url facebook gdrive gphotos">
                 </li>
                 <label for="eviction">ANY PREVIOUS EVICTIONS?</label>
                 <li id="eviction">
                     <div>
-                        <input type="radio" class="radio" name="evicted"><input readonly required value="YES">
+                        <input type="radio" class="radio" name="evicted" required value="yes"><input readonly
+                            value="YES">
                     </div>
                     <div>
-                        <input type="radio" class="radio" name="evicted"><input readonly required value="NO">
+                        <input type="radio" class="radio" name="evicted" required value="no"><input readonly value="NO">
                     </div>
                 </li>
                 <label for="credit">TOTAL CREDIT SCORE</label>
                 <li id="credit">
-                    <i class="fa-solid fa-credit-card"></i><input type="text" id="credit">
+                    <i class="fa-solid fa-credit-card"></i><input type="text" id="credit" name="credit score">
                 </li>
 
                 <li id="date">
                     <label for="date">DATE</label>
-                    <input type="date" id="date">
+                    <input type="date" id="date" name="date of application">
                 </li>
 
                 <li id="time">
                     <label for="time">TIME</label>
-                    <input type="time" id="time">
+                    <input type="time" id="time" name="time of application">
                 </li>
             </ul>
             <section>
@@ -211,8 +220,8 @@
                 </span>
             </section>
             <div id="agreement">
-                <input type="checkbox" class="radio" name="agreement"><input readonly required
-                    value="I agree to the terms and conditions" class="agreement">
+                <input type="checkbox" class="radio"><input readonly required
+                    value="I agree to the terms and conditions" class="agreement" name="agreement">
             </div>
             <input type="submit" value="Submit form" id="submit">
         </form>

@@ -16,3 +16,11 @@ setInterval(() => {
     id.firstElementChild.classList.remove('fa-check');
   }
 }, 3000);
+
+
+const input = document.querySelectorAll('input')
+input.forEach((element)=> {
+  if(element.name === '' || element.name === null){
+    console.log(element)
+  }
+})
